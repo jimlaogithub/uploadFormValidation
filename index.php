@@ -16,9 +16,13 @@
             <div class="col-md-4 mt-5">
                 <div class="card">
                 <div class="card-header"><h3 class="text-center">Upload a file</h3></div>
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                        <div class="form-group">
-                            <input type="file" name="files[]" multiple>
+                    <form action="upload.php" method="post" enctype="multipart/form-data" class="text-center">
+                        <div class="input-group mb-3 text-left">
+                            
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" name="files[]" aria-describedby="inputGroupFileAddon01" multiple>
+                                <label class="custom-file-label" for="inputGroupFile01">Choose files</label>
+                            </div>
                         </div>
                         <button type="submit" class="btn btn-success"><i class="fas fa-upload"></i> Upload</button>
                     </form>
