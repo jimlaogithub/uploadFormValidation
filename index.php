@@ -18,11 +18,7 @@
                 <div class="card-header"><h3 class="text-center">Upload a file</h3></div>
                     <form action="upload.php" method="post" enctype="multipart/form-data" class="text-center">
                         <div class="input-group mb-3 text-left">
-                            
-                            <div class="custom-file">
-                                <input type="file" class="custom-file-input" name="files[]" aria-describedby="inputGroupFileAddon01" multiple>
-                                <label class="custom-file-label" for="inputGroupFile01">Choose files</label>
-                            </div>
+                        <input type="file" name="files[]" multiple>
                         </div>
                         <button type="submit" class="btn btn-success"><i class="fas fa-upload"></i> Upload</button>
                     </form>
