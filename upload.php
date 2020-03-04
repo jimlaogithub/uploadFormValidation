@@ -1,13 +1,7 @@
 <?php
     include_once('validation.php'); 
     $files = $_FILES['files'];
-    $fileNames = array();
-    $fileTypes = array();
-    $fileErrors = array();
-    $fileTmpNames = array();
-    $fileSizes = array();
-    
-    
+
     
     foreach($files['name'] as $position => $fileName){
         // assigning datas in their arrays
